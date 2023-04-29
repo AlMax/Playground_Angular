@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Playground';
+  title: any = '';
+  welcome_visible: boolean = false;
+
+  /*ngOnInit(){
+    setTimeout(() => {
+      this.welcome_visible = true;
+    }, 3000);
+  }*/
 }
